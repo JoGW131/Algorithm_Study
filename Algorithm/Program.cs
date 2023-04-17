@@ -10,6 +10,9 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
+            Board_1 board_1 = new Board_1();
+            board_1.Initialize();
+
             Console.CursorVisible = false;
             int lasttick = 0;
 

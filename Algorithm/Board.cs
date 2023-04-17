@@ -33,7 +33,7 @@ namespace Algorithm
             Count++;
         }
 
-        // 0(1)
+        // 0(1) 예외 케이스 
         public T this[int index]
         {
             get { return _data[index]; }
@@ -42,8 +42,7 @@ namespace Algorithm
         // 0(N)
         public void RemoveAt(int index)
         {
-
-            for (int i = 0; i < Count - 1; i++)
+            for (int i = index; i < Count - 1; i++)
                 _data[i] = _data[index + 1];
             _data[Count - 1] = default(T);
             Count--;
