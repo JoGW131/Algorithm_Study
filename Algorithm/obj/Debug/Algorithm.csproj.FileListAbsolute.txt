@@ -1,0 +1,8 @@
+D:\source\Algorithm_Study\Algorithm\bin\Debug\Algorithm.exe.config
+D:\source\Algorithm_Study\Algorithm\bin\Debug\Algorithm.exe
+D:\source\Algorithm_Study\Algorithm\bin\Debug\Algorithm.pdb
+D:\source\Algorithm_Study\Algorithm\obj\Debug\Algorithm.csproj.AssemblyReference.cache
+D:\source\Algorithm_Study\Algorithm\obj\Debug\Algorithm.csproj.SuggestedBindingRedirects.cache
+D:\source\Algorithm_Study\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+D:\source\Algorithm_Study\Algorithm\obj\Debug\Algorithm.exe
+D:\source\Algorithm_Study\Algorithm\obj\Debug\Algorithm.pdb
