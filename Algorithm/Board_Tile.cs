@@ -8,9 +8,9 @@ namespace Algorithm
 {
     class Board_Tile
     {
-        const char CIRCLE = '\u25cf';
+        const char CIRCLE = '\u25cf';   // 사이클 
         public TileType[,] _tile;    //배열
-        public int _size;
+        public int _size;   // 사이즈
 
         // 하드코딩 지양하자
         public enum TileType
@@ -18,14 +18,14 @@ namespace Algorithm
             Empty,
             Wall
         }
-        public void Initialize(int size)
+        public void Initialize(int size)    // 첫번째
         {
             _tile = new TileType[size, size];
             _size = size;
 
-            for (int y = 0; y < _size; y++)
+            for (int y = 0; y < _size; y++)    // 0 ~ 25 사이즈
             {
-                for(int x = 0; x < _size; x++)
+                for(int x = 0; x < _size; x++)    // 0 ~ 25 사이즈
                 {
                     if (x == 0 || x == _size - 1 || y == 0 || y == size - 1)
                         _tile[y, x] = TileType.Wall;
