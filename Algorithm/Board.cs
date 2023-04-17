@@ -9,9 +9,10 @@ namespace Algorithm
 {
     class MyList<T>     // 재너릴 형식
     {
-        const int DEFAULT_SIZE = 1;
+        const int DEFAULT_SIZE = 1;    // const :상수 (변하지 않는 값) / var : 변수(변하는 값)
         T[] _data = new T[DEFAULT_SIZE];
         public int Count;   // 실제로 사용중인 데이터 개수
+        
         public int Capacity { get { return _data.Length; } }    // 예약된 데이터 개수 
 
         // 시간복잡도 0(1) 

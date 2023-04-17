@@ -65,7 +65,7 @@ namespace Algorithm
             Count--;
         }
     }
-    class Board_1   //연결리스트 구현 연습
+    class Board_Linked   //연결리스트 구현 연습
     {
         public List<int> _data2 = new List<int>();  // 동적배열   // 재너릴 형식
         public MyLinkedList<int> _data3 = new MyLinkedList<int>();  //연결 리스트
